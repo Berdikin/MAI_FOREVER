@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{multicol,multirow}
+\usepackage{tabularx}
+\usepackage{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection.}{0.3em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection.}{0.3em}{}
+
+\titlespacing{\section}{0pt}{*2}{*2}
+\titlespacing{\subsection}{0pt}{*1}{*1}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\usepackage{listings}
+\lstloadlanguages{Lisp}
+\lstset{extendedchars=false,
+	breaklines=true,
+	breakatwhitespace=true,
+	keepspaces = true,
+	tabsize=2
+}
+\begin{document}
+
+
+\section*{Отчет по лабораторной работе №\,2 
+по курсу \guillemotleft  Функциональное программирование\guillemotright}
+\begin{flushright}
+Студент группы 8О-307 МАИ \textit{Бердикин Тимофей}, \textnumero 2 по списку \\
+\makebox[7cm]{Контакты: {\tt timofey.1234@mail.ru} \hfill} \\
+\makebox[7cm]{Работа выполнена: 15.04.2020 \hfill} \\
+\ \\
+Преподаватель: Иванов Дмитрий Анатольевич, доц. каф. 806 \\
+\makebox[7cm]{Отчет сдан: \hfill} \\
+\makebox[7cm]{Итоговая оценка: \hfill} \\
+\makebox[7cm]{Подпись преподавателя: \hfill} \\
+
+\end{flushright}
+
+\section{Тема работы}
+Простейшие функции работы со списками Коммон Лисп.
+
+\section{Цель работы}
+Научиться конструировать списки, находить элемент в списке, использовать схему линейной и древовидной рекурсии для обхода и реконструкции плоских списков и деревьев.
+
+\section{Задание (вариант №17)}
+Запрограммируйте рекурсивно на языке Коммон Лисп функцию, удаляющую из списка последний элемент. Точнее, она должна создавать копию списка-аргумента без последнего элемента.
+
+\section{Оборудование ПЭВМ студента}
+Ноутбук Asus ROG Strix, Intel® Core™ i7-7700HQ CPU @ 2.80GHz × 8, память: 11,6Gb, разрядность системы: 64.
+
+\section{Программное обеспечение ЭВМ студента}
+OS Linux Ubuntu 20.10, LispWorks.
+
+\section{Идея, метод, алгоритм}
+
+$delete\_end$ - это рекурсивная функция, которая принимает параметром некоторый список. Если хвост списка - пустой список (а это значит, что данный список состоит из одного элемента), то программа вернёт нам $nil$. Ну а в противном случае возвращается пара из головы списка и результата функции $delete\_end$, которую применили к хвосту списка. Проще говоря, функция рекурсивно строит список из исходного, перебирая все его элементы, но вместо последнего элемента помещает в результирующий список атом $nil$.
+
+\section{Сценарий выполнения работы}
+
+\section{Распечатка программы и её результаты}
+
+\subsection{Исходный код}
+\lstinputlisting{lab2.lisp}
+
+\subsection{Результаты работы}
+\lstinputlisting{log.txt}
+
+\section{Дневник отладки}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Дата & Событие & Действие по исправлению & Примечание \\
+\hline
+15.04 & Illegal car 7 in compound form (7) & (7) -> '(7) & Забыт апостроф \\ 
+\hline
+\end{tabular}
+\section{Замечания автора по существу работы}
+Эта работа далась мне куда легче, чем предыдущая, за счёт того, что я уже более глубоко познакомился с языком {\it Common Lisp} и понял, что от меня требуется в целом.
+
+\section{Выводы}
+В процессе выполнения работы я познакомился со списками в языке {\it Common Lisp} и немного научился с ними работать. Методы, которыми это делается, всё ещё ломают мне голову, но я близок к полному пониманию парадигмы функционального программирования.
+
+\end{document}
