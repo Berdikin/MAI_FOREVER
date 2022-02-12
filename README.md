@@ -15,5 +15,5 @@
 ### 4 курс
 
 [AI&DL](https://github.com/Berdikin/MAI_FOREVER/tree/main/AI%26DL/ "а было мультимедиа") - курс нейроночек на Питоне, замена мультимедиа  
-[Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAf3E4D-iZ4dWhExqDcwhVd2/)
+[Плейлист на Ютубе](https://youtube.com/playlist?list=PLkEW-Gs8UxAf3E4D-iZ4dWhExqDcwhVd2)
 
