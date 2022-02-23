@@ -36,16 +36,18 @@
 [IO](hhttps://github.com/Berdikin/MAI_FOREVER/tree/main/IO/) - исследование операций (ПМ/ПМИ, Короткова)   
 [Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAcgQKfuLe0SYi5-fne8WpYu)  
 
-
 [NM](https://github.com/Berdikin/MAI_FOREVER/tree/main/NM "ммм, метод Рунге-Кутты") - численные методы, II сем (ПМ/ПМИ, Ревизников)   
 [Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAcRL6S780MzVTY2ET5XrtWr)  
 
-Нейроинформатика  (ПМИ, Тюменцев)
+Нейроинформатика  (ПМИ, Тюменцев)  
 [Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAe1o8Gh6fwDJt5-V70CNf59)  
 
-ПГП и ПОД (ПМИ, Морозов и Крашенинников)
+ПГП и ПОД (ПМИ, Морозов и Крашенинников)  
 [Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAeyr_jHMFGrxsqxiYOYP4oQ)
 
 [AI&DL](https://github.com/Berdikin/MAI_FOREVER/tree/main/AI%26DL/ "а было мультимедиа") - курс нейроночек на Питоне, замена мультимедиа (ПМИ, Вишняков)   
 [Плейлист на Ютубе](https://youtube.com/playlist?list=PLkEW-Gs8UxAf3E4D-iZ4dWhExqDcwhVd2)
+
+[Эконометрика](https://github.com/9rikova/econometrics-) (спецкурс ПМИ 804, Платонов)   
+[Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAdhypTffMCNNin4gQI6d_Ex)  
 
