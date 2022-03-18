@@ -11,10 +11,10 @@
 ### 1 курс  
 [1_curse](https://github.com/Berdikin/MAI_FOREVER/tree/main/1_curse "deep nostalgia") - файлики с 1 курса 
 
-ЛААГ - линейная алгебра и аналитическая геометрия (ПМ, Пегачкова)
+ЛААГ - линейная алгебра и аналитическая геометрия (ПМ, Пегачкова)  
 [Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAebZvCmetLBosfQZkBjy7A8)
 
-ДМ - дискретная математика (ПМ, Смерчинская)
+ДМ - дискретная математика (ПМ, Смерчинская)  
 [Плейлист на Ютубе](https://www.youtube.com/playlist?list=PLkEW-Gs8UxAcxbR04vf7nOw0OXhABuyyY)
 
 ### 2 курс
