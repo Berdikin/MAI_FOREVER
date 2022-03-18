@@ -5,6 +5,7 @@
 ВК: https://vk.com/keinsterbe  
 Телега: https://t.me/keinsterbe  
 
+Записи кучи предметов есть на канале.  
 Канал на Ютубе - https://www.youtube.com/channel/UC2Km1UOqK1LAWs0v0I_mMGA/playlists
 
 ### 1 курс  
